@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.498, 50.416]
+      },
+      "properties": {
+        "id": "sample-pt-1",
+        "fieldId": "field-1",
+        "fieldName": "Поле №1 - Озима пшениця",
+        "type": "SOIL_SAMPLE",
+        "typeLabel": "Проба ґрунту",
+        "mgrs": "36U UA 22251 87877",
+        "description": "Аналіз кислотності ґрунту (pH 6.2) та вмісту калію",
+        "createdAt": "2026-09-20T08:30:00.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.525, 50.418]
+      },
+      "properties": {
+        "id": "sample-pt-2",
+        "fieldId": "field-2",
+        "fieldName": "Поле №2 - Соняшник класичний",
+        "type": "PESTS",
+        "typeLabel": "Шкідники",
+        "mgrs": "36U UA 24176 88035",
+        "description": "Локальний осередок лучного метелика на східному краї поля",
+        "createdAt": "2026-09-21T10:15:00.000Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.495, 50.415]
+      },
+      "properties": {
+        "id": "wrong-field-id-pt",
+        "fieldId": "field-2",
+        "type": "OTHER",
+        "description": "Координати поля №1, але fieldId=field-2"
+      }
+    }
+  ]
+}

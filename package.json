@@ -1,0 +1,19 @@
+{
+  "name": "agtech-fields-gis-pw",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright + TypeScript tests for AgTech Fields GIS",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:smoke": "playwright test --grep @smoke",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "dotenv": "^18.0.9",
+    "typescript": "^5.9.3"
+  }
+}

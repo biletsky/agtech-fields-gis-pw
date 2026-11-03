@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.5, 51.5]
+      },
+      "properties": {
+        "id": "outside-pt-1",
+        "type": "OTHER",
+        "description": "Точка поза межами будь-якого поля"
+      }
+    }
+  ]
+}
